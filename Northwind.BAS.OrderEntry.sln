@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.BAS.OrderEntry", "Northwind.BAS.OrderEntry\Northwind.BAS.OrderEntry.csproj", "{4AFB1D26-01E0-429B-915F-78E43521E4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.BAS.OrderEntry.Business", "Northwind.BAS.OrderEntry.Business\Northwind.BAS.OrderEntry.Business.csproj", "{9534A3D0-1E54-4096-895F-2971DC8919B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.BAS.OrderEntry.Contracts", "Northwind.BAS.OrderEntry.Contracts\Northwind.BAS.OrderEntry.Contracts.csproj", "{2AC2CF46-1BCA-4933-8CDF-032575F0B41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.BAS.OrderEntry.DataAccess", "Northwind.BAS.OrderEntry.DataAccess\Northwind.BAS.OrderEntry.DataAccess.csproj", "{27F4984C-BE48-4CD2-8641-A04252639A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.BAS.OrderEntry.Tests", "Northwind.BAS.OrderEntry.Tests\Northwind.BAS.OrderEntry.Tests.csproj", "{0F7F9F52-105C-4E84-8062-C13662E15792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AFB1D26-01E0-429B-915F-78E43521E4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFB1D26-01E0-429B-915F-78E43521E4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFB1D26-01E0-429B-915F-78E43521E4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFB1D26-01E0-429B-915F-78E43521E4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9534A3D0-1E54-4096-895F-2971DC8919B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9534A3D0-1E54-4096-895F-2971DC8919B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9534A3D0-1E54-4096-895F-2971DC8919B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9534A3D0-1E54-4096-895F-2971DC8919B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC2CF46-1BCA-4933-8CDF-032575F0B41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC2CF46-1BCA-4933-8CDF-032575F0B41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC2CF46-1BCA-4933-8CDF-032575F0B41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC2CF46-1BCA-4933-8CDF-032575F0B41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F4984C-BE48-4CD2-8641-A04252639A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F4984C-BE48-4CD2-8641-A04252639A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F4984C-BE48-4CD2-8641-A04252639A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F4984C-BE48-4CD2-8641-A04252639A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7F9F52-105C-4E84-8062-C13662E15792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7F9F52-105C-4E84-8062-C13662E15792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7F9F52-105C-4E84-8062-C13662E15792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7F9F52-105C-4E84-8062-C13662E15792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7264EF49-2CA3-4BF2-A6D7-2E1369022ED1}
+	EndGlobalSection
+EndGlobal
